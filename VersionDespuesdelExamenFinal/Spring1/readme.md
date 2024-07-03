@@ -720,7 +720,8 @@ Ahora corremos jacoco y tenemos el siguiente reporte :
 
 ![Untitled](images/Untitled%2036.png)
 
-## Clases
+Explicacion : 
+## Analisis de las clases
 
 1. **Clima**:
     - **Coverage(cobertura de codigo)** : 92% de las instrucciones
