@@ -1,0 +1,18 @@
+version: '2.28'  # Versión de Docker Compose que se está utilizando
+
+services:  # Definición de los servicios que componen la aplicación
+  app:  # Servicio de la aplicación principal
+    build: .  # Construye la imagen Docker utilizando el Dockerfile en el directorio actual
+    ports:  # Mapea los puertos del contenedor a los puertos de la máquina host
+      - "8080:8080"  # Mapea el puerto 8080 del contenedor al puerto 8080 de la máquina host
+    depends_on:  # Especifica las dependencias de este servicio
+      - database  # Este servicio depende del servicio "database"
+
+  database:  # Servicio de la base de datos
+    image: postgres:latest  # Utiliza la imagen más reciente de PostgreSQL
+    environment:  # Variables de entorno para configurar la base de datos
+      POSTGRES_DB: mydb  # Nombre de la base de datos
+      POSTGRES_USER: user  # Usuario de la base de datos
+      POSTGRES_PASSWORD: password  # Contraseña del usuario de la base de datos
+    ports:  # Mapea los puertos del contenedor a los puertos de la máquina host
+      - "5432:5432"  # Mapea el puerto 5432 del contenedor al puerto 5432 de la máquina host

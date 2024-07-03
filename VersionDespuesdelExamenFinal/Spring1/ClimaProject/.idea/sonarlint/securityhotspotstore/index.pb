@@ -41,3 +41,5 @@ T
 $src/main/java/org/example/Clima.java,9\2\929ce692c06cf81a0f341bd8ac6bf5c2269225c4
 X
 (src/test/java/org/example/ClimaTest.java,4\8\4823928964cf20c736ca35f2653c09a9c0733b3d
+?
+DockerfileClima,e\c\ec36f1aa0b3257d984d8c471529241e830d44f7d

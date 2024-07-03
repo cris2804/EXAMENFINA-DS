@@ -1,0 +1,65 @@
+plugins {
+    id 'java'
+    id 'jacoco' // Plugin de JaCoCo
+    id 'info.solidsoft.pitest' version '1.15.0'
+    id "org.sonarqube" version "3.5.0.2730"
+}
+
+group = 'com.wordz'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.assertj:assertj-core:3.25.3'
+    testImplementation 'org.jetbrains:annotations:24.0.0'
+    //dependencia para usar mockito
+    implementation group: 'org.mockito', name: 'mockito-core', version: '5.12.0'
+    //dependencia para usar pitest
+    pitest 'org.pitest:pitest-junit5-plugin:1.1.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+sonar {
+    properties {
+        property "sonar.projectKey", "FINALEXAMEN"
+        property "sonar.login", "sqp_f2d263d53b3486c802aafeb3a4439ec35983e355"
+        property "sonar.host.url", "http://localhost:9000"
+    }
+}
+
+
+pitest {
+    targetClasses = ['org.example.*'] // Paquete de clases a mutar
+    mutators = ['DEFAULTS'] // Conjunto de mutadores [OLD_DEFAULTS, DEFAULTS, STRONGER, ALL]
+    outputFormats = ['HTML'] // Formato de salida del informe
+    timestampedReports = false // Deshabilitar informes con marca de tiempo para facilitar la navegación
+    verbose = true
+}
+// jacoco
+jacoco {
+    toolVersion = "0.8.12" // Versión de JaCoCo (compatible con java 21)
+}
+
+jacocoTestReport {
+//    dependsOn test // Ejecuta las pruebas antes de generar el informe
+    reports {
+        html.required = true
+        xml.required = true  // Update with required
+        csv.required = true
+
+    }
+}
+
+check.dependsOn jacocoTestCoverageVerification
+
+
+// ./gradlew pitest
+// ./gradlew jacocoTestReport
+

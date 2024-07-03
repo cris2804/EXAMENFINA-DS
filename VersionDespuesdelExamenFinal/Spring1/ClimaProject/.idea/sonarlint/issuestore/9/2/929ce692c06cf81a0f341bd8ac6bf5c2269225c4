@@ -1,18 +1,18 @@
 
-r	java:S1060"+Replace this use of System.out by a logger.(şÒÒøÿÿÿÿ8Ï´Ó‡2J$96210c61-b284-4da2-ac2b-4dc5c5470d27
-r	java:S1063"+Replace this use of System.out by a logger.(×®¢øÿÿÿÿ8Ñ´Ó‡2J$d3dea8e7-4443-40ca-a014-76a901e28bd5
-r	java:S1066"+Replace this use of System.out by a logger.(•É™Íùÿÿÿÿ8Ò´Ó‡2J$3890d00f-32f7-4bc2-9df1-34f36e75d284
-s
-java:S2440:"+Remove this instantiation of "Temperatura".(ÏœµÜıÿÿÿÿ8Ô´Ó‡2J$6bb1d35c-6a5d-42c9-8b84-cd7216c9a2d6
-n
-java:S2440;"&Remove this instantiation of "Lluvia".(¶©§Âÿÿÿÿÿ8Õ´Ó‡2J$edbc27e6-7245-4521-8b73-47488234d9d2
-i
-java:S2440<"&Remove this instantiation of "Viento".(øĞÕ¨8×´Ó‡2J$d77c2b47-77bc-49d2-8736-a5dd827ebdf8
-m	java:S106E"+Replace this use of System.out by a logger.(´ºáš8Û´Ó‡2J$6b8edea3-ee61-43de-ba64-f8bed93ecc99
-r	java:S106F"+Replace this use of System.out by a logger.(ÊÄÓÎıÿÿÿÿ8Ü´Ó‡2J$832cfadb-30f7-47da-b017-3f6bf7e2ca41
+r	java:S1060"+Replace this use of System.out by a logger.(şÒÒøÿÿÿÿ8Ï´Ó‡2J$51219797-7cbd-4229-a081-b832c3857d27
+r	java:S1063"+Replace this use of System.out by a logger.(×®¢øÿÿÿÿ8Ñ´Ó‡2J$f0ddd373-9617-46a7-89d3-57e29ea88773
+r	java:S1066"+Replace this use of System.out by a logger.(•É™Íùÿÿÿÿ8Ò´Ó‡2J$6f7a17c5-7c84-4c67-b0af-568097938dc2
+M
+java:S2440:"+Remove this instantiation of "Temperatura".(ÏœµÜıÿÿÿÿ8šÊÂÕ‡2
+H
+java:S2440;"&Remove this instantiation of "Lluvia".(¶©§Âÿÿÿÿÿ8œÊÂÕ‡2
+C
+java:S2440<"&Remove this instantiation of "Viento".(øĞÕ¨8ÊÂÕ‡2
+m	java:S106E"+Replace this use of System.out by a logger.(´ºáš8Û´Ó‡2J$33ad81f6-54b0-40c0-9ba0-d6ade70fb1e7
+r	java:S106F"+Replace this use of System.out by a logger.(ÊÄÓÎıÿÿÿÿ8Ü´Ó‡2J$bd856f37-c948-45b2-ae13-92c2aef3488d
 r
-java:S1068"/Remove this unused "temperatura" private field.(Ûù¢8É˜ºÑ‡2J$0c8ac898-ea8f-44e8-9e1e-c768fb80a32c
+java:S1068"/Remove this unused "temperatura" private field.(Ûù¢8É˜ºÑ‡2J$5ffcd22c-c881-435a-86d3-ec7a04e9c7a5
 r
-java:S1068"*Remove this unused "lluvia" private field.(ÉÃâøÿÿÿÿ8®è¹Ñ‡2J$edd247e9-ec89-428d-88d1-69cc42c99136
+java:S1068"*Remove this unused "lluvia" private field.(ÉÃâøÿÿÿÿ8®è¹Ñ‡2J$ffcc4d2a-8ed1-4f0e-a071-b42426f92e20
 m
-java:S1068"*Remove this unused "viento" private field.(ÎÌ–¨8×…ºÑ‡2J$6b7d2cbc-6d65-4ffb-a0a4-58e5b0842922
+java:S1068"*Remove this unused "viento" private field.(ÎÌ–¨8×…ºÑ‡2J$1a9de85a-5516-4295-bf4b-317380cb195e
