@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.ClimaTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-07-03T20:26:46" hostname="LAPTOP-662VNBS9" time="0.045">
+  <properties/>
+  <testcase name="testEvaluarCondicionesVientoFuerte()" classname="org.example.ClimaTest" time="0.039"/>
+  <testcase name="testEvaluarCondicionesSistemaRiego()" classname="org.example.ClimaTest" time="0.002"/>
+  <testcase name="testEvaluarCondicionesLluviaIntensa()" classname="org.example.ClimaTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
